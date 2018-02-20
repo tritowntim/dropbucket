@@ -1,5 +1,5 @@
 {
-  "name": "testapp-get-api",
+  "name": "dropbucket-get-webhook",
   "dependencies": {
     "@architect/functions": "^1.6.3"
   }

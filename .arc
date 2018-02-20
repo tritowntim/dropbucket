@@ -1,8 +1,8 @@
 @app
-testapp
+dropbucket
 
 @html
-get /
+get /webhook
 
 @json
-get /api
+post /webhook
