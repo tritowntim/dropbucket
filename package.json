@@ -1,0 +1,18 @@
+{
+  "name": "dropbucket",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create": "AWS_PROFILE=dropbucket-dev AWS_REGION=us-east-1 arc-create",
+    "deploy": "AWS_PROFILE=dropbucket-dev AWS_REGION=us-east-1 arc-deploy",
+    "start": "AWS_PROFILE=dropbucket-dev AWS_REGION=us-east-1 NODE_ENV=testing arc-sandbox"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@architect/workflows": "^2.2.2"
+  }
+}
