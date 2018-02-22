@@ -6,3 +6,6 @@ get /webhook
 
 @json
 post /webhook
+
+@events
+deltas

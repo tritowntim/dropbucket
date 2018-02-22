@@ -5,9 +5,12 @@ function route(req, res) {
 
   const body = req.body || 'error: request has no body';
 
-  res({
-    json: { payload: body } 
-  })
+  arc.events.publish({
+    name: 'deltas',
+    payload: body
+  });
+
+  res({});
 }
 
 exports.handler = arc.json.post(route);
