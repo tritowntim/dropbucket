@@ -10,7 +10,7 @@ function route(req, res) {
     payload: body
   });
 
-  res({});
+  res({ json: {} });
 }
 
 exports.handler = arc.json.post(route);
