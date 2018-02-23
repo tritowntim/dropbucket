@@ -1,6 +1,11 @@
 {
   "name": "dropbucket-file",
   "dependencies": {
-    "@architect/functions": "^1.6.3"
+    "@architect/functions": "^1.6.3",
+    "dropbox": "^3.0.4",
+    "es6-promise": "^4.2.4",
+    "mime-types": "^2.1.18",
+    "node-fetch": "^2.0.0",
+    "request": "^2.83.0"
   }
 }
